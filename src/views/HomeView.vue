@@ -12,8 +12,8 @@
     <div class="quiSommesNous">
       <h2 class="text">Qui sommes nous ?</h2>
       <p class="text">
-        La Troupe d'Improvisation de Paris Saclay (TIPS) est une troupe d'improvisation étudiante. Nous organisons des cours avec l'université Paris Saclay et organisons matchs et cabarets d'improvisation en région parisienne. Pour venir nous voir. Pour nous contacter.
-      </p>
+        La Troupe d'Improvisation de Paris Saclay (TIPS) est une troupe d'improvisation étudiante. Nous organisons des cours avec l'université Paris Saclay et organisons matchs et cabarets d'improvisation en région parisienne. Pour venir nous voir. Pour <a href="#contact-anchor">nous contacter</a>.
+      </p> 
     </div>
     <img alt="photo cabaret d'improvisation" class="photo-impro" src="../assets/photoImpro2.webp">
     <ContactInfo />

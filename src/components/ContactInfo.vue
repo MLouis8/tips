@@ -1,9 +1,16 @@
 <template>
-    <div class="column-container" id="anchor">
+    <div class="column-container" id="contact-anchor">
+        <img alt="logo TIPS" class="logoT" src="../assets/logo.svg" >
         <div class="row-container">
-            <img alt="logo discord" class="logoD" src="../assets/discord.webp">
-            <img alt="logo TIPS" class="logoT" src="../assets/logo.svg">
-            <img alt="logo facebook" class="logoF" src="../assets/facebook.webp">
+            <a href="https://www.facebook.com/tips.improparissaclay">
+                <img alt="logo facebook" class="socials" src="../assets/facebook.webp">
+            </a>
+            <a href="https://discord.gg/ZPQJkrRhVb">
+                <img alt="logo discord" class="socials" src="../assets/discord.webp">
+            </a>
+            <a href="https://www.instagram.com/impro.orsay/">
+                <img alt="logo insta" class="socials" src="../assets/instagram.webp">
+            </a>
         </div>
         <button @click="toClipboard('impro.orsay@gmail.com')" class="email">impro.orsay@gmail.com</button>
     </div>
@@ -26,12 +33,19 @@
 .row-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
 }
 
 .column-container {
-    background-color: rgb(45, 8, 87);
+    background: rgb(131,58,180);
+    background: linear-gradient(
+        90deg,
+        rgba(131,58,180,1) 0%,
+        rgba(155,3,31,1) 50%,
+        rgba(252,176,69,1) 100%
+    );
     padding: 2vh;
     margin: 2.5vw;
     border-radius: 1vw;
@@ -40,15 +54,8 @@
     align-items: center;
 }
 
-.logoD {
-    height: 4.9vh;
-    width: auto;
-}
-
-.logoF {
-    height: 4.4vh;
-    width: auto;
-    
+.socials {
+    height: 3.5vh;
 }
 
 .logoT {
@@ -57,7 +64,11 @@
 }
 
 .email {
+    color: white;
+    font-size: medium;
     text-decoration: underline;
+    background-color: transparent;
+    border: 0;
 }
 
 </style>

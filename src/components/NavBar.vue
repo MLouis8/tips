@@ -5,7 +5,7 @@
         <router-link to="/informations_cours">espace cours</router-link> |
         <router-link to="/informations_pratiques">infos pratiques</router-link> |
         <router-link to="/login">mon compte</router-link> |
-        <a href="#anchor">contact</a>
+        <a href="#contact-anchor">contact</a>
     </nav>
     <router-view/>
 </template>
@@ -18,7 +18,6 @@
 
 <style scoped>
 nav {
-  position: sticky;
   padding: 10px;
   margin-left: 2vw;
   margin-right: 2vw;
@@ -26,7 +25,8 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  background-color: rgb(45, 8, 87);
+  background: rgb(232,166,44);
+  background: linear-gradient(62deg, rgba(232,166,44,1) 0%, rgba(86,41,138,1) 53%);
 }
 
 nav a {
