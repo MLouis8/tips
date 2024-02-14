@@ -46,8 +46,11 @@
         rgba(155,3,31,1) 50%,
         rgba(252,176,69,1) 100%
     );
-    padding: 2vh;
-    margin: 2.5vw;
+    padding: 1.5vh;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     border-radius: 1vw;
     display: flex;
     flex-flow: column nowrap;
@@ -59,7 +62,7 @@
 }
 
 .logoT {
-    width: 15vw;
+    width: 14vw;
     height: auto;
 }
 
