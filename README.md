@@ -25,5 +25,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### TODO
 - place description component
-- big screen responsiveness limitation
-- big screen responsiveness decoration
+- big screen responsiveness (limitations + decoration)
+- event component
+- responsiveness for mobile devices (NavBar + general)
+- authentification (Otka)
+- views content
+- connected visual component

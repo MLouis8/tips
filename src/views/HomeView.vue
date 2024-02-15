@@ -3,7 +3,7 @@
     <div class="header-container">
       <img alt="logo UPS" class="logo" src="../assets/LogoUPSaclay.png">
 
-      <h1 class="white">{{ "TIPS" }}</h1>
+      <h1>{{ "TIPS" }}</h1>
 
       <img alt="logo TIPS" class="logo" src="../assets/logo.svg" width="125" height="125">
     </div>
@@ -44,13 +44,26 @@ export default {
 h1 {
   font-weight: 500;
   font-size: 6rem;
-  position: relative;
-  font: 'Pirou';
+  font-family: 'Pirou';
+  color: rgb(243, 216, 81);
+  padding-top: 5vh;
 }
 
 img {
   max-width: 90vw;
   max-height: 90vh;
+}
+
+.page-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 .text-container {
@@ -70,20 +83,9 @@ img {
   text-align: justify;
 }
 
-.page-container {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.header-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-content: space-between;
-}
-
 .logo {
   margin: auto;
+  
 }
 
 .photo-impro {

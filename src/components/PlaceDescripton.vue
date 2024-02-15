@@ -1,7 +1,9 @@
-<template class="box">
-    <img src=img>
-    <div class="text-info">
-        {{ adress }}
+<template>
+    <div class="box">
+        <img :src="require(`@/assets/${filename}`)">
+        <div class="text-info">
+            {{ adress }}
+        </div>
     </div>
 </template>
 
@@ -12,15 +14,23 @@ export default {
         nom: String,
         adress: String,
         transport: String,
-        img: String
+        filename: String
     }
 }
 </script>
 
 <style scoped>
+
+img {
+    max-width: 100%;
+}
+
 .box {
     display: flex;
     flex-flow: row nowrap;
+    width: 20vw;
+    height: auto;
+    border: ;
 }
 
 .text-info {

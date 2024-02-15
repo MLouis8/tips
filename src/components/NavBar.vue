@@ -37,6 +37,7 @@ nav a {
   border-radius: 20px;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
+  padding-top: 0.2vh;
   background-color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
 }
